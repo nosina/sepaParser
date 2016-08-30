@@ -1,0 +1,14 @@
+<HTML>
+
+<HEAD>
+    <script type="text/javascript" src="campos.js"></script>
+    <script type="text/javascript" src="parser.js"></script>
+</HEAD>
+
+<body>
+    <input type="file" id="input" multiple onchange="handleInputFiles(this.files)" />
+    <button onclick="handleInputFiles(getElementById('input').files)">convertir</button>
+    <div>
+        <a id="save" style="visibility: hidden;">save</a>
+    </div>
+</body>
